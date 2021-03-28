@@ -1,0 +1,141 @@
+*{
+    background-color: #F2F2F2;
+    border-spacing: 0px;
+}
+
+body{
+    margin: 0px;
+    clear: both;
+}
+
+table{
+    cellpadding: 0;
+    cellspacing: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #DADCDF;
+    border-spacing: 0px;
+}
+
+tr> td{
+    padding: 0px;
+}
+
+.table-pai{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #A0A0A0;
+    background-color: #4285f4
+}
+
+.cabecalho{
+    background-color: #4285f4;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.estacionamento{
+    background-color: #F0F0F0;
+    height: 100%;
+    width: 100%;
+}
+
+.vagas{
+    height: 100%;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.ruaH{
+    min-width: 100px;
+    height: 120px;
+    background-color: black;
+}
+
+.ruaV{
+
+    height: 90px;
+    background-color: black;
+}
+
+.cinza{
+    background-color: #DADCDF;
+}
+
+.localtopo{
+    text-align: center;
+    line-height: 25px;
+}
+
+.rot90{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg); /* Safari/Chrome */
+    -moz-transform: rotate(90deg); /* Firefox */
+    -o-transform: rotate(90deg); /* Opera */
+    -ms-transform: rotate(90deg); /* IE 9 */
+}
+
+.rot-90{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg); /* Safari/Chrome */
+    -moz-transform: rotate(-90deg); /* Firefox */
+    -o-transform: rotate(-90deg); /* Opera */
+    -ms-transform: rotate(-90deg); /* IE 9 */
+}
+
+.limbo{
+    min-width: 119;
+    height: 120px;
+    background-color: #DADCDF;
+}
+
+.limbo2{
+    height: 100px;
+    background-color: #DADCDF;
+}
+
+.vertical{
+    max-width: 120px;
+    min-width: 120px;
+    height: 120px;
+}
+
+.vagaV{
+    height: 90px;
+    width: 120px;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.vagaH{
+    width: 90px; 
+    height: 120px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+}
+
+.vagasMTop{
+    min-width: 95px; 
+    height: 80px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.vagasMBottom{
+    min-width: 95px; 
+    height: 80px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+}
